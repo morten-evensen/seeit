@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+}
+
+
+/* Navigation
+********************/
+i {
+    padding: 0 5px 0 0;
+}
+nav {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px 10px 0 10px;
+}
+
+nav ul {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.logo-wrap {
+    flex: 0.1;
+}
+
+.nav-wrap {
+    flex: 1;
+}
+
+.nav-wrap ul {
+    float: right;
+    margin-top: 70px;
+}
+
+.nav-wrap ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px
+}
+
+.nav-wrap ul li:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main content
+********************/
+
+.main-content-wrap {
+    background-color: skyblue;
+    margin: 0 150px 0 150px;
+    font-weight: 500;
+    padding-bottom: 150px;
+}
+
+.text {
+    padding: 100px 0 0 100px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 80px;
+}
+
+.degree-wrap {
+    font-weight: 400;
+    margin: 50px 0 0 0;
+}
+
+select {
+    background-color: inherit;
+    padding: 5px;
+    color: inherit;
+    border-radius: 10px;
+}
+selct:hover {
+    cursor: pointer;
+}
