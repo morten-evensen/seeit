@@ -116,6 +116,54 @@ ul li a {
   opacity: 1;
 }
 
+.choose {
+    border: 2px solid black;
+    padding: 5px;
+    background-color: darkblue;
+}
+
+.choose:hover {
+    cursor: pointer;
+}
+
+
+.degree-wrap {
+  
+  display: inline-block;
+    
+}
+
+.degree-link {
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.degree-link a {
+    text-decoration: none;
+    color: black;    
+}
+
+.degree-link a:hover {
+    opacity: 0.7;   
+}
+
+.degree-options {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 0;
+    
+}
+
+.degree-wrap:hover .degree-options {
+    transition: 0.5s;
+  display: block;
+    cursor: pointer;
+}
+
 .menu {
     
     text-align: center;
